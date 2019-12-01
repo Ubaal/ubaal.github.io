@@ -3,6 +3,23 @@
   overflow: hidden;
   padding-bottom: 3rem;
   z-index: 2;
+  .logo-container {
+    @media (min-width: 768px) {
+      padding: 40px 60px;
+      justify-content: flex-start;
+    }
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    .logo {
+      height: 80px;
+      width: 200px;
+      background-color: #fff;
+      background-image: url('../img/logo.png');
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+  }
   .masthead-bg {
     position: absolute;
     top: 0;

@@ -56,6 +56,28 @@ video {
   z-index: 2;
 }
 
+.masthead .logo-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+@media (min-width: 768px) {
+  .masthead .logo-container {
+    padding: 40px 60px;
+    justify-content: flex-start;
+  }
+}
+
+.masthead .logo-container .logo {
+  height: 80px;
+  width: 200px;
+  background-color: #fff;
+  background-image: url("../img/logo.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 .masthead .masthead-bg {
   position: absolute;
   top: 0;
